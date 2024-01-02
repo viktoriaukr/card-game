@@ -1,0 +1,31 @@
+.Card-area {
+  margin-top: 80px;
+}
+
+.Card-area > img {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.Deck-btn {
+  padding: 10px;
+  background-color: darkred;
+  color: rgb(246, 208, 208);
+  border-radius: 8px;
+  font-size: larger;
+  border: none;
+  margin: 0 auto;
+  margin-left: 6px;
+}
+
+.Deck-btn:hover {
+  cursor: pointer;
+  background-color: #444;
+}
+
+.Deck-btn:active,
+.Deck-btn:focus {
+  outline: none;
+}
